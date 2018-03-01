@@ -1,0 +1,403 @@
+/*
+ Theme Name:     Storefront Child
+
+ Description:    Storefront Child
+
+ Author:         Elegant Themes
+
+ Template:       storefront
+
+*/
+@import url("../storefront/style.css");
+.secondary-type, .wizard > .content > .body input.input-text, .wizard > .steps .disabled a,
+.wizard > .steps .done a, #pizzatime-accordion h3, .vc_toggle_title, .pizzatime .ui-widget-content,
+#pizzatime-qty, .site-header-cart .widget_shopping_cart {
+  background-image: url("img/cream-bg.jpg");
+  background-attachment: fixed;
+  background-repeat: repeat;
+  background-color: #444;
+  color: #000 !important; }
+
+.btn, .btn-red, input[type=submit],
+#wizard form.login input.button,
+.woocommerce-Button.button,
+.wizard > .actions a,
+#wizard .woocommerce-Button,
+.woocommerce-variation-add-to-cart .ui-button,
+.product_type_variable.add_to_cart_button, input[type=submit]:hover,
+#wizard form.login input.button:hover,
+.woocommerce-Button.button:hover,
+.wizard > .actions a:hover,
+#wizard .woocommerce-Button:hover,
+.woocommerce-variation-add-to-cart .ui-button:hover,
+.product_type_variable.add_to_cart_button:hover, input[type=submit]:focus,
+#wizard form.login input.button:focus,
+.woocommerce-Button.button:focus,
+.wizard > .actions a:focus,
+#wizard .woocommerce-Button:focus,
+.woocommerce-variation-add-to-cart .ui-button:focus,
+.product_type_variable.add_to_cart_button:focus, .btn-white {
+  -webkit-transition: all ease 0.2s;
+  -o-transition: all ease 0.2s;
+  transition: all ease 0.2s;
+  border: 0px;
+  padding: 5px 30px;
+  border-radius: 8px; }
+
+.btn-red, input[type=submit],
+#wizard form.login input.button,
+.woocommerce-Button.button,
+.wizard > .actions a,
+#wizard .woocommerce-Button,
+.woocommerce-variation-add-to-cart .ui-button,
+.product_type_variable.add_to_cart_button, input[type=submit]:hover,
+#wizard form.login input.button:hover,
+.woocommerce-Button.button:hover,
+.wizard > .actions a:hover,
+#wizard .woocommerce-Button:hover,
+.woocommerce-variation-add-to-cart .ui-button:hover,
+.product_type_variable.add_to_cart_button:hover, input[type=submit]:focus,
+#wizard form.login input.button:focus,
+.woocommerce-Button.button:focus,
+.wizard > .actions a:focus,
+#wizard .woocommerce-Button:focus,
+.woocommerce-variation-add-to-cart .ui-button:focus,
+.product_type_variable.add_to_cart_button:focus {
+  background: #b1181d;
+  color: #fff;
+  border-bottom: 4px solid #570c0e;
+  font-weight: 400;
+  font-size: 16px; }
+
+.btn-white {
+  background: #fff;
+  color: #b1181d;
+  border-bottom: 4px solid #cccccc; }
+
+input[type=submit]:hover,
+#wizard form.login input.button:hover,
+.woocommerce-Button.button:hover,
+.wizard > .actions a:hover,
+#wizard .woocommerce-Button:hover,
+.woocommerce-variation-add-to-cart .ui-button:hover,
+.product_type_variable.add_to_cart_button:hover {
+  background: #9b1519;
+  border-bottom: 4px solid #41090b; }
+
+input[type=submit]:focus,
+#wizard form.login input.button:focus,
+.woocommerce-Button.button:focus,
+.wizard > .actions a:focus,
+#wizard .woocommerce-Button:focus,
+.woocommerce-variation-add-to-cart .ui-button:focus,
+.product_type_variable.add_to_cart_button:focus {
+  background: #9b1519;
+  border-bottom: 4px solid #41090b; }
+
+.site-header {
+  border: none;
+  margin-bottom: 0px !important; }
+  .site-header .site-branding img {
+    max-width: 350px; }
+
+.header-image {
+  min-height: 700px;
+  background-position: bottom center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  @media screen and (max-width: 900px) {
+    .header-image {
+      min-height: 500px; } }
+
+.header-text {
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  font-family: 'Stay Wildy';
+  font-size: 80px;
+  line-height: 1;
+  color: #fff !important; }
+
+.secondary-header {
+  background-image: url("img/yellow-texture.jpg"); }
+  .secondary-header .below-header ul {
+    margin: 0px;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    text-align: center; }
+    .secondary-header .below-header ul li {
+      list-style: none;
+      display: inline-block; }
+      .secondary-header .below-header ul li a {
+        padding: 15px 20px;
+        display: inline-block;
+        color: #b1181d;
+        font-weight: 700; }
+        @media screen and (max-width: 900px) {
+          .secondary-header .below-header ul li a {
+            display: block; } }
+
+.primary-navigation {
+  text-align: right; }
+
+.order-button a {
+  border: 7px solid #b1181d;
+  border-radius: 100%;
+  color: #fff !important;
+  font-family: 'Stay Wildy';
+  font-size: 46px;
+  padding: 10px !important;
+  line-height: normal;
+  -webkit-transition: 0.4s ease;
+  -moz-transition: 0.4s ease;
+  -ms-transition: 0.4s ease;
+  -o-transition: 0.4s ease;
+  transition: 0.4s ease; }
+  .order-button a:hover {
+    background: rgba(177, 24, 29, 0.5);
+    border-color: rgba(177, 24, 29, 0.5); }
+
+.main-navigation ul li a {
+  color: #fff; }
+
+.home .entry-header {
+  display: none; }
+
+.home .content-area, .home .site-main, .home .hentry {
+  padding: 0px !important;
+  margin: 0px !important; }
+
+.home-cats-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+
+.home-cat {
+  padding: 10px 15px !important;
+  width: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  @media screen and (max-width: 600px) {
+    .home-cat {
+      width: 100%; } }
+  @media screen and (min-width: 600px) and (max-width: 900px) {
+    .home-cat {
+      width: 50%; } }
+  .home-cat img {
+    filter: none;
+    -webkit-filter: none;
+    display: block !important;
+    -webkit-transition: 0.4s -webkit-filter linear !important;
+    -moz-transition: 0.4s -moz-filter linear !important;
+    -moz-transition: 0.4s filter linear !important;
+    -ms-transition: 0.4s -ms-filter linear !important;
+    -o-transition: 0.4s -o-filter linear !important;
+    -webkit-transition: -webkit-filter 0.4s !important;
+    transition: -webkit-filter 0.4s !important;
+    -o-transition: filter 0.4s !important;
+    transition: filter 0.4s !important;
+    transition: filter 0.4s, -webkit-filter 0.4s !important; }
+  .home-cat:hover img {
+    filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="1.4" /><feFuncG type="linear" slope="1.4" /><feFuncB type="linear" slope="1.4" /></feComponentTransfer></filter></svg>#filter');
+    filter: brightness(65%);
+    -webkit-filter: brightness(65%); }
+  .home-cat a {
+    padding: 0px !important;
+    position: relative; }
+  .home-cat span {
+    position: absolute;
+    left: 10px;
+    bottom: 0px;
+    color: #fff !important;
+    font-family: 'Stay Wildy';
+    font-size: 64px;
+    padding: 35px 10px 15px 5px !important; }
+
+.site-footer {
+  background-image: url("img/red-bg.jpg");
+  padding: 30px 0px; }
+  .site-footer .et_social_icons_container li {
+    float: right !important; }
+    @media screen and (max-width: 900px) {
+      .site-footer .et_social_icons_container li {
+        float: left !important; } }
+  .site-footer * {
+    color: #fff; }
+  .site-footer .et_social_shortcode_0 li {
+    background: none !important; }
+  .site-footer .site-info {
+    font-size: 14px;
+    padding: 0px;
+    margin: 0px;
+    text-align: center; }
+  .site-footer .footer-widgets {
+    padding: 0px;
+    border: 0px; }
+  .site-footer .widget {
+    margin: 0px; }
+
+body.et_monarch .et_social_shortcode_0.et_social_rounded .et_social_icons_container li:hover {
+  background: none !important; }
+
+body.et_monarch .et_social_top .et_social_icon {
+  background-color: transparent; }
+
+body.et_monarch .et_social_top li a, .et_monarch {
+  padding: 0px; }
+
+body.et_monarch .et_social_icon, .et_monarch .et_social_icon:before, body.et_monarch .et_social_icon:after {
+  font-size: 32px;
+  line-height: 32px; }
+
+body.et_monarch .et_social_networks .et_social_icon, body.et_monarch .et_social_networks .et_social_icon:before, body.et_monarch .et_social_networks .et_social_icon:after {
+  width: 50px;
+  height: 50px;
+  line-height: 48px; }
+
+body.et_monarch .et_social_autowidth li {
+  margin-right: 0px !important; }
+
+.woocommerce-cart-tab {
+  background: url(img/yellow-texture.jpg); }
+
+.woocommerce-cart-tab-container {
+  background: url(img/cream-bg.jpg); }
+  .woocommerce-cart-tab-container .widget_shopping_cart_content * {
+    color: #000; }
+  .woocommerce-cart-tab-container .widgettitle {
+    background: url(img/yellow-texture.jpg);
+    color: #000; }
+  .woocommerce-cart-tab-container .woocommerce-mini-cart__buttons {
+    background: url(img/yellow-texture.jpg); }
+  .woocommerce-cart-tab-container .buttons a {
+    background-color: #b1181d !important;
+    color: #fff !important; }
+    .woocommerce-cart-tab-container .buttons a:hover {
+      background: #9b1519 !important;
+      color: #fff !important; }
+
+@font-face {
+  font-family: 'Stay Wildy';
+  src: url("fonts/StayWildy.woff2") format("woff2"), url("fonts/StayWildy.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+body #page {
+  font-family: 'Century Gothic W01' !important; }
+
+.site-content {
+  background-image: url("img/cream-bg.jpg"); }
+
+body.loading .my-custom-step.choose-store:after {
+  content: '';
+  width: 100%;
+  position: absolute;
+  background-image: url("img/header-bg.jpg");
+  display: block;
+  top: 1px;
+  height: 100%;
+  background-image: url("img/loading.gif");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 150px; }
+
+.woocommerce-breadcrumb,
+.related.products,
+.posted_in {
+  display: none !important; }
+
+a {
+  -webkit-transition: all ease 0.2s;
+  -o-transition: all ease 0.2s;
+  transition: all ease 0.2s; }
+
+@media screen and (min-width: 767px) {
+  .secondary-navigation .menu {
+    float: left; }
+  .primary-navigation {
+    text-align: right; }
+  .primary-navigation #menu-item-332 a {
+    background: #b1181d;
+    padding: 5px 30px;
+    border-radius: 8px;
+    color: #fff;
+    border-bottom: 4px solid #570c0e; } }
+
+ul#menu-secondary-menu li a:hover {
+  color: #fff; }
+
+.woocommerce-cart-tab__icon-bag {
+  fill: #444; }
+
+.wizard > .steps .current a, .wizard > .steps .current a:active, .wizard > .steps .current a:hover,
+#wizard .checkout_coupon .button, #wizard form.login input.button, .wizard > .actions a, .wizard > .actions a:active, .wizard > .actions a:hover,
+.woocommerce-info {
+  background: #b1181d;
+  background-color: #b1181d; }
+
+.wizard > .content > .body input.input-text {
+  border: 0px;
+  border-bottom: 3px solid #bd961a; }
+
+#pizzatime-accordion h3 {
+  border: 0px;
+  border-radius: 0px;
+  padding: 10px 0px;
+  border-bottom: 3px solid #bd961a;
+  margin-bottom: 5px;
+  border-radius: 3px; }
+
+.vc_toggle_title {
+  border: 0px;
+  border-radius: 0px;
+  padding: 15px 0px;
+  border-bottom: 3px solid #bd961a;
+  margin-bottom: 5px;
+  border-radius: 3px; }
+
+.pizzatime-ingredient-list.ui-accordion-content.ui-corner-bottom.ui-helper-reset.ui-widget-content.accordion-content-active {
+  padding: 7px;
+  border: 0px;
+  margin-bottom: 25px;
+  padding: 7px !important;
+  border-bottom: 3px solid #bd961a; }
+
+#pizzatime-qty, #pizzatime-qty-m {
+  height: 2.6em; }
+
+.pizzatime .ui-controlgroup {
+  background: transparent; }
+
+.vc_toggle_default .vc_toggle_icon {
+  background: #000;
+  border: 1px solid #000; }
+  .vc_toggle_default .vc_toggle_icon:hover {
+    border: 1px solid #000; }
+  .vc_toggle_default .vc_toggle_icon:after {
+    background: #000;
+    border: 1px solid #000; }
+  .vc_toggle_default .vc_toggle_icon:before {
+    background: #000;
+    border: 1px solid #000; }
+
+.pizzatime-ingredient-description, .pizzatime-popup-ingredient-description {
+  color: #000; }
+
+.pizzatime .ui-controlgroup {
+  vertical-align: middle;
+  display: block;
+  clear: both;
+  padding-left: 0px;
+  padding-bottom: 0px; }

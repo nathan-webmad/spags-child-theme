@@ -1,0 +1,12 @@
+@mixin color-on-bg($font-color,$background-color) {
+    background-color:$background-color !important;
+    color:$font-color !important;
+}
+
+.secondary-type{
+  background-image:url('img/cream-bg.jpg');
+  background-attachment: fixed;
+  background-repeat: repeat;
+  background-color:#444;
+  color:#000 !important;
+}

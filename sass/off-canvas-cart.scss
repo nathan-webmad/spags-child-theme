@@ -1,0 +1,35 @@
+$cart-button-bg-img : "img/yellow-texture.jpg";
+
+$cart-header-bg-color : "img/yellow-texture.jpg";
+$cart-header-color: #000;
+
+$cart-content-bg-color : "img/cream-bg.jpg";
+$cart-content-color: #000;
+
+.woocommerce-cart-tab{
+  background:url(#{$cart-button-bg-img});
+}
+
+.woocommerce-cart-tab-container{
+    .widget_shopping_cart_content *{
+      color:$cart-content-color;
+    }
+    background:url(#{$cart-content-bg-color});
+    .widgettitle{
+        background:url(#{$cart-header-bg-color});
+        color:$cart-header-color;
+    }
+    .woocommerce-mini-cart__buttons{
+        background:url(#{$cart-header-bg-color});
+    }
+    .buttons{
+      a{
+        background-color: $red !important;
+        color:#fff !important;
+        &:hover{
+          background: darken($red,5%) !important;
+          color:#fff !important;
+        }
+      }
+    }
+}

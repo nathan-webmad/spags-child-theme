@@ -1,0 +1,83 @@
+.site-header{
+  border:none;
+  margin-bottom: 0px !important;
+  .site-branding img{
+    max-width:350px;
+  }
+}
+
+.header-image {
+   min-height: 700px;
+   @media screen and (max-width: $break-medium) {
+     min-height: 500px;
+   }
+   background-position: bottom center;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+.header-text{
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    font-family: 'Stay Wildy';
+    font-size:80px;
+    line-height: 1;
+    color: #fff !important;
+}
+.secondary-header{
+  background-image: url('img/yellow-texture.jpg');
+  .below-header{
+    ul{
+      margin: 0px;
+      text-align: center;
+      display: flex;
+      justify-content: space-evenly;
+      text-align:center;
+      li{
+        list-style: none;
+        display:inline-block;
+        a{
+          padding: 15px 20px;
+          display:inline-block;
+          color:$red;
+          font-weight:700;
+          @media screen and (max-width: $break-medium) {
+            display:block;
+          }
+        }
+      }
+    }
+  }
+}
+
+.primary-navigation{
+  text-align:right;
+}
+
+
+
+.order-button a{
+  border: 7px solid $red;
+  border-radius:100%;
+  color:#fff !important;
+  font-family: 'Stay Wildy';
+  font-size: 46px;
+  padding: 10px !important;
+  line-height: normal;
+  -webkit-transition:0.4s ease;
+   -moz-transition:0.4s ease;
+   -ms-transition:0.4s ease;
+   -o-transition:0.4s ease;
+   transition:0.4s ease;
+   &:hover{
+       background:rgba(177,24,29,0.5);
+       border-color:rgba(177,24,29,0.5);
+   }
+}
+
+.main-navigation ul li a{
+  color:#fff;
+}

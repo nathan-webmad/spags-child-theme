@@ -1,0 +1,171 @@
+@import url("../storefront/style.css");
+
+
+@font-face {
+    font-family: 'Stay Wildy';
+    src: url('fonts/StayWildy.woff2') format('woff2'),
+        url('fonts/StayWildy.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body #page{
+  font-family:'Century Gothic W01' !important;
+}
+
+.site-content{
+  background-image:url('img/cream-bg.jpg');
+}
+
+
+body.loading .my-custom-step.choose-store:after{
+	  content: '';
+    width: 100%;
+    position: absolute;
+    background-image:url('img/header-bg.jpg');
+    display: block;
+    top: 1px;
+    height: 100%;
+    background-image: url('img/loading.gif');
+    background-position: center center;
+    background-repeat:no-repeat;
+    background-size:150px;
+}
+
+.woocommerce-breadcrumb,
+.related.products,
+.posted_in{
+  display:none !important;
+}
+
+a{
+  transition: all ease 0.2s;
+}
+
+
+@media screen and (min-width: 767px){
+
+
+	.secondary-navigation .menu{
+		float:left;
+	}
+	.primary-navigation{
+		text-align:right;
+	}
+
+	.primary-navigation #menu-item-332 a{
+		  background: $red;
+	  	padding: 5px 30px;
+	   	border-radius: 8px;
+	    color: #fff;
+	    border-bottom: 4px solid $dark-red;
+	}
+
+}
+
+
+ul#menu-secondary-menu{
+    li{
+      a{
+        &:hover {
+          color: #fff;
+        }
+      }
+  }
+}
+.woocommerce-cart-tab__icon-bag{
+  fill:#444;
+}
+
+
+.wizard>.steps .current a, .wizard>.steps .current a:active, .wizard>.steps .current a:hover,
+#wizard .checkout_coupon .button, #wizard form.login input.button, .wizard>.actions a, .wizard>.actions a:active, .wizard>.actions a:hover,
+.woocommerce-info{
+ background: $red;
+ background-color: $red;
+}
+
+
+.wizard>.content>.body input.input-text{
+	@extend .secondary-type;
+	border:0px;
+	border-bottom: 3px solid $secondary-yellow;
+}
+
+.wizard>.steps .disabled a,
+.wizard>.steps .done a{
+	@extend .secondary-type;
+}
+
+#pizzatime-accordion h3{
+	@extend .secondary-type;
+	border:0px;
+	border-radius: 0px;
+	padding:10px 0px;
+	border-bottom: 3px solid $secondary-yellow;
+	margin-bottom: 5px;
+	border-radius: 3px;
+}
+
+.vc_toggle_title{
+	@extend .secondary-type;
+	border:0px;
+	border-radius: 0px;
+	padding:15px 0px;
+	border-bottom: 3px solid $secondary-yellow;
+	margin-bottom: 5px;
+	border-radius: 3px;
+}
+
+.pizzatime .ui-widget-content,
+#pizzatime-qty{
+	@extend .secondary-type;
+}
+
+.pizzatime-ingredient-list.ui-accordion-content.ui-corner-bottom.ui-helper-reset.ui-widget-content.accordion-content-active{
+	padding:7px;
+	border:0px;
+	margin-bottom: 25px;
+	padding: 7px !important;
+	border-bottom: 3px solid $secondary-yellow;
+}
+
+#pizzatime-qty, #pizzatime-qty-m {
+    height: 2.6em;
+}
+
+.pizzatime .ui-controlgroup {
+    background: transparent;
+}
+
+.site-header-cart .widget_shopping_cart{
+	@extend .secondary-type;
+}
+
+.vc_toggle_default .vc_toggle_icon{
+	background: $primary-font;
+  border: 1px solid $primary-font;
+	&:hover{
+		border: 1px solid $primary-font;
+	}
+	&:after{
+	 background: $primary-font;
+	 border: 1px solid $primary-font;
+	}
+	&:before{
+	 background: $primary-font;
+	 border: 1px solid $primary-font;
+	}
+}
+
+.pizzatime-ingredient-description, .pizzatime-popup-ingredient-description{
+	color: $primary-font;
+}
+
+.pizzatime .ui-controlgroup {
+    vertical-align: middle;
+    display: block;
+    clear: both;
+    padding-left: 0px;
+    padding-bottom: 0px;
+}

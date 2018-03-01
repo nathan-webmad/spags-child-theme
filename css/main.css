@@ -1,0 +1,48 @@
+/*
+ Theme Name:     Storefront Child
+
+ Description:    Storefront Child
+
+ Author:         Elegant Themes
+
+ Template:       storefront
+
+*/
+@import url("../storefront/style.css");
+body.loading .my-custom-step.choose-store:after {
+  content: '';
+  width: 100%;
+  position: absolute;
+  background: #fff;
+  display: block;
+  top: 1px;
+  height: 100%;
+  background-image: url("img/loading.gif");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 150px; }
+
+.site-header {
+  background-color: #E4AF15;
+  background-image: url("img/header-bg.jpg"); }
+
+@media screen and (min-width: 767px) {
+  .site-search {
+    /*	display:none;*/ }
+  .secondary-navigation .menu {
+    float: left; }
+  .primary-navigation {
+    text-align: right; }
+  .primary-navigation #menu-item-332 a {
+    background: #b1181d;
+    padding: 5px 30px;
+    border-radius: 8px;
+    color: #fff;
+    border-bottom: 4px solid #901418; } }
+
+.woocommerce-mini-cart-item mini_cart_item {
+  background-color: #b1181d;
+  color: #fff; }
+
+.woocommerce-mini-cart__total total {
+  background-color: #741013; }

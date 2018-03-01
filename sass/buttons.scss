@@ -1,0 +1,45 @@
+.btn{
+  transition: all ease 0.2s;
+  border:0px;
+  padding: 5px 30px;
+  border-radius: 8px;
+}
+
+.btn-red{
+  @extend .btn;
+  background: $red;
+  color: #fff;
+  border-bottom: 4px solid $dark-red;
+  font-weight:400;
+  font-size:16px;
+
+}
+
+.btn-white{
+  @extend .btn;
+  background: #fff;
+  color: $red;
+  border-bottom: 4px solid darken(#fff,20%);
+}
+
+
+
+input[type=submit],
+#wizard form.login input.button,
+.woocommerce-Button.button,
+.wizard > .actions a,
+#wizard .woocommerce-Button,
+.woocommerce-variation-add-to-cart .ui-button,
+.product_type_variable.add_to_cart_button{
+  @extend .btn-red;
+  &:hover{
+    @extend .btn-red;
+    background: darken($red,5%);
+    border-bottom: 4px solid darken($dark-red,5%);
+  }
+  &:focus{
+    @extend .btn-red;
+    background: darken($red,5%);
+    border-bottom: 4px solid darken($dark-red,5%);
+  }
+}

@@ -1,0 +1,56 @@
+.home{
+  .entry-header{
+    display:none;
+  }
+  .content-area,.site-main,.hentry{
+    padding: 0px !important;
+    margin: 0px !important;
+  }
+}
+.home-cats-container{
+    display:flex;
+    flex-wrap: wrap;
+}
+.home-cat {
+
+   padding: 10px 15px !important;
+   width: 25%;
+   display: flex;
+   @media screen and (max-width: $break-small) {
+      width: 100%;
+   }
+   @media screen and (min-width: $break-small) and (max-width: $break-medium) {
+      width: 50%;
+   }
+   img{
+      filter:none;
+      -webkit-filter:none;
+      display: block !important;
+      -webkit-transition: 0.4s -webkit-filter linear !important;
+      -moz-transition: 0.4s -moz-filter linear !important;
+      -moz-transition: 0.4s filter linear !important;
+      -ms-transition: 0.4s -ms-filter linear !important;
+      -o-transition: 0.4s -o-filter linear !important;
+      transition: filter 0.4s !important;
+   }
+   &:hover img{
+     filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="1.4" /><feFuncG type="linear" slope="1.4" /><feFuncB type="linear" slope="1.4" /></feComponentTransfer></filter></svg>#filter');
+     filter: brightness(65%);
+     -webkit-filter: brightness(65%);
+   }
+
+   a{
+     padding:0px !important;
+     position: relative;
+   }
+
+   span{
+     position: absolute;
+     left: 10px;
+     bottom: 0px;
+     color: #fff !important;
+     font-family: 'Stay Wildy';
+     font-size: 64px;
+     padding: 35px 10px 15px 5px !important;
+   }
+}
